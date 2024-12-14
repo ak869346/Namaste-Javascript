@@ -1,4 +1,4 @@
-# EveryThing in JavaScript happens inside an Execution Context.
+# 1. EveryThing in JavaScript happens inside an Execution Context.
 
 There are two components of this Execution Context 
    1. Memory Component (Variable Envirnment) - Variable and Functions are stored as key value pairs.
@@ -10,7 +10,7 @@ There are two components of this Execution Context
     2. Code Creation phase.
         WhenEver a function is invoked a brand new execution context is created.
 
-# JavaScript is a synchronous single threaded language.
+# 2. JavaScript is a synchronous single threaded language.
     1. single threaded - Execute one command at a time.
     2. synchronous - executed in specific order means it will go to the next line once the current line execution is finished.
 
@@ -78,3 +78,10 @@ console.log(square(n));
    - n = 2
    - function square(n) { ... }
    - Result of square(n): 4
+
+# 3. Call Stack Manage the order of execution of execution contexts.
+
+# Management of all these Execution Context by JS Engine.
+ JS Engine use call stack to manage all these execution context.
+    -> Everytime at the bottom of call stack Global Execution Context is present.
+
