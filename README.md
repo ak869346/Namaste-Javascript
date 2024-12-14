@@ -6,5 +6,5 @@ There are two components of this Execution Context
 
 
 # JavaScript is a synchronous single threaded language.
-    single threaded - Execute one command at a time.
-    synchronous - executed in specific order means it will go to the next line once the current line execution is finished.
+    1. single threaded - Execute one command at a time.
+    2. synchronous - executed in specific order means it will go to the next line once the current line execution is finished.
