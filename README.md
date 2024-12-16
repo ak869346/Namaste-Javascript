@@ -81,7 +81,7 @@ console.log(square(n));
 
 # 3. Call Stack Manage the order of execution of execution contexts.
 
-Management of all these Execution Context by JS Engine.
+ Management of all these Execution Context by JS Engine.
  JS Engine use call stack to manage all these execution context.
     -> Everytime at the bottom of call stack Global Execution Context is present.
 
